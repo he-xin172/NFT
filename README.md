@@ -45,27 +45,30 @@ This project is an NFT trading platform based on the Scaffold framework. Users c
 1. 克隆项目 (Clone the repository):
 
     git clone https://github.com/he-xin172/NFT.git
+   
     cd NFT
 
-2. 安装依赖 (Install dependencies):
+3. 安装依赖 (Install dependencies):
 
     yarn install
 
-3. 启动本地区块链网络 (Start the local blockchain network):
+4. 启动本地区块链网络 (Start the local blockchain network):
 
     yarn chain
 
-4. 在第二个终端窗口中，部署智能合约 (Deploy smart contracts in a second terminal window):
+5. 在第二个终端窗口中，部署智能合约 (Deploy smart contracts in a second terminal window):
 
     cd challenge-0-simple-nft
+   
     yarn deploy
 
-5. 在第三个终端窗口中，启动前端 (Start the frontend in a third terminal window):
+6. 在第三个终端窗口中，启动前端 (Start the frontend in a third terminal window):
 
     cd challenge-0-simple-nft
+   
     yarn start
 
-6. 访问平台 (Access the platform):
+7. 访问平台 (Access the platform):
 
     打开浏览器并访问 [http://localhost:3000](http://localhost:3000)。
 
